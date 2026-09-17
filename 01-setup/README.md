@@ -2,7 +2,7 @@
 
 In this episode, we will set up a TypeScript project from scratch and configure it for development.
 
-# Lessons Covered
+## Lessons Covered
 
 - What is TypeScript and how it differs from JavaScript
 - How to set up a TypeScript project
