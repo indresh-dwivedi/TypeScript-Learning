@@ -4,8 +4,6 @@ In this episode, we will learn about Type Annotations & Type Inference.
 
 ## Lessons Covered
 
-- 00:00 - Introduction: TypeScript Masterclass (Episode 02)
-- Course Resources, GitHub Repo & Discord Community
 - Type Annotations vs. Type Inference Explained
 - How to Write Type Annotations for Variables & Functions
 - Return Type Annotations & Array Types
