@@ -92,3 +92,18 @@ function throwError(message: string): never {
     throw new Error(message);
 }
 
+type Shape = "square" | "circle";
+
+function getArea(shape: Shape) {
+    switch (shape) {
+        case "square":
+            return 100;
+        case "circle":
+            return 314;
+        default:
+            // TypeScript knows 'shape' can only be square or circle.
+            // Therefore, at this point, 'shape' is typed as 'never'.
+            const _exhaustiveCheck: never = shape;
+            return _exhaustiveCheck;
+    }
+}
