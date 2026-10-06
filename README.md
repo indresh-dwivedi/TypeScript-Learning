@@ -95,6 +95,7 @@ In this episode, we will learn about the base types in TypeScript.
 | `any` | The value could be absolutely anything. Turn off safety rules. | Migrating messy legacy JS code. |
 | `never` | The value cannot exist / The code path cannot be reached. | Functions that crash or loop forever. |
 
+
 # Episode 04 - Arrays, Tuples & Object Types
 
 In this episode, we will learn about the Arrays, Tuples & Object Types.
