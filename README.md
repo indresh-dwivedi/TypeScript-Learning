@@ -89,6 +89,12 @@ In this episode, we will learn about the base types in TypeScript.
 
 ### 3. void VS. any VS, never
 
+| Type | What it actually means | Real-world example |
+| --- | --- | --- |
+| `void` | The function completes, but returns no useful data. | `console.log()` |
+| `any` | The value could be absolutely anything. Turn off safety rules. | Migrating messy legacy JS code. |
+| `never` | The value cannot exist / The code path cannot be reached. | Functions that crash or loop forever. |
+
 # Episode 04 - Arrays, Tuples & Object Types
 
 In this episode, we will learn about the Arrays, Tuples & Object Types.
