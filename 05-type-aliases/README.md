@@ -4,7 +4,6 @@ In this episode, we will learn about the Type Aliases.
 
 ## Lessons Covered
 
-- Introduction to Session 05
 - Real-World Problem: Why We Need Flexible Types
 - What are Union Types? (Syntax & Analogy)
 - Common Beginner Mistake: Union Is Not Combined Types

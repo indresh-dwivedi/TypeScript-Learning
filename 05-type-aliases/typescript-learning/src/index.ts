@@ -8,9 +8,6 @@
 
 // Union types => Union type allows a variable, parameter, or property to have one of several specified types, using the | operator.
 
-/*const userId = 101;
-const anotherUserId = "USR-101";*/
-
 
 let userId: string | number;
 
