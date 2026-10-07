@@ -94,3 +94,27 @@ In this episode, we will learn about the base types in TypeScript.
 | `void` | The function completes, but returns no useful data. | `console.log()` |
 | `any` | The value could be absolutely anything. Turn off safety rules. | Migrating messy legacy JS code. |
 | `never` | The value cannot exist / The code path cannot be reached. | Functions that crash or loop forever. |
+
+
+# Episode 04 - Arrays, Tuples & Object Types
+
+In this episode, we will learn about the Arrays, Tuples & Object Types.
+
+## Lessons Covered
+
+
+## Tuple VS. Array VS. Object Type
+
+| Feature | Tuple | Array | Object Type |
+| --- | --- | --- | --- |
+| Length | Fixed (unless explicit rest flags) | Dynamic (can change sizes) | Fixed keys, arbitrary data sizing |
+| Element Types | Can be completely different per slot | Uniform (or a single broad union) | Tied to unique named property keys |
+| Access Method | By numerical index (`[0]`) | By numerical index (`[i]`) | By property name (`.key`) |
+| Best Used For | Small, ordered, positional pairs | Infinite lists of identical things | Complex data with descriptive labels |
+
+
+| Type | What it actually means | Real-world example |
+| --- | --- | --- |
+| `void` | The function completes, but returns no useful data. | `console.log()` |
+| `any` | The value could be absolutely anything. Turn off safety rules. | Migrating messy legacy JS code. |
+| `never` | The value cannot exist / The code path cannot be reached. | Functions that crash or loop forever. |
