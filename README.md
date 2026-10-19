@@ -1,7 +1,5 @@
 # TypeScript Learning Series
 
----
-
 ## Episode 01 - Setup & Configuration
 
 In this episode, we will set up a TypeScript project from scratch and configure it for development.
