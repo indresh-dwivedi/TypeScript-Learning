@@ -1,10 +1,12 @@
 # TypeScript Learning Series
 
-### Episode 01 - Setup & Configuration
+---
+
+## Episode 01 - Setup & Configuration
 
 In this episode, we will set up a TypeScript project from scratch and configure it for development.
 
-## Lessons Covered
+### Lessons Covered
 
 - What is TypeScript and how it differs from JavaScript
 - How to set up a TypeScript project
@@ -12,11 +14,13 @@ In this episode, we will set up a TypeScript project from scratch and configure 
 - How to compile TypeScript code to JavaScript
 - How to use watch mode for development
 
-### Episode 02 - Type Annotations & Type Inference
+---
+
+## Episode 02 - Type Annotations & Type Inference
 
 In this episode, we will learn about Type Annotations & Type Inference.
 
-## Lessons Covered
+### Lessons Covered
 
 - Type Annotations vs. Type Inference Explained
 - How to Write Type Annotations for Variables & Functions
@@ -32,11 +36,13 @@ In this episode, we will learn about Type Annotations & Type Inference.
 - Contextual Typing with DOM Events & Arrays
 - Best Practices: When to Annotate vs. When to Infer
 
-### Episode 03 - Base Types Primitives
+---
+
+## Episode 03 - Base Types Primitives
 
 In this episode, we will learn about the base types in TypeScript.
 
-## Lessons Covered
+### Lessons Covered
 
 - Introduction & Why Base Types Matter
 - Core Primitives: string, number, and boolean
@@ -95,13 +101,13 @@ In this episode, we will learn about the base types in TypeScript.
 | `any` | The value could be absolutely anything. Turn off safety rules. | Migrating messy legacy JS code. |
 | `never` | The value cannot exist / The code path cannot be reached. | Functions that crash or loop forever. |
 
+---
 
-### Episode 04 - Arrays, Tuples & Object Types
+## Episode 04 - Arrays, Tuples & Object Types
 
 In this episode, we will learn about the Arrays, Tuples & Object Types.
 
-## Lessons Covered
-
+### Lessons Covered
 
 ## Tuple VS. Array VS. Object Type
 
@@ -119,11 +125,13 @@ In this episode, we will learn about the Arrays, Tuples & Object Types.
 | `any` | The value could be absolutely anything. Turn off safety rules. | Migrating messy legacy JS code. |
 | `never` | The value cannot exist / The code path cannot be reached. | Functions that crash or loop forever. |
 
-### Episode 05 - Type Aliases
+---
+
+## Episode 05 - Type Aliases
 
 In this episode, we will learn about the Type Aliases.
 
-## Lessons Covered
+### Lessons Covered
 
 - Introduction to Session 05
 - Real-World Problem: Why We Need Flexible Types
@@ -140,3 +148,5 @@ In this episode, we will learn about the Type Aliases.
 - Handling Optional Values: Union Types with Null & Undefined
 - Arrays in TypeScript: Mixed Values vs. Homogeneous Unions
 - Union (|) vs. Intersection (&)
+
+---
