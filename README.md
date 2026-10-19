@@ -1,6 +1,6 @@
 # TypeScript Learning Series
 
-# Episode 01 - Setup & Configuration
+### Episode 01 - Setup & Configuration
 
 In this episode, we will set up a TypeScript project from scratch and configure it for development.
 
@@ -12,7 +12,7 @@ In this episode, we will set up a TypeScript project from scratch and configure 
 - How to compile TypeScript code to JavaScript
 - How to use watch mode for development
 
-# Episode 02 - Type Annotations & Type Inference
+### Episode 02 - Type Annotations & Type Inference
 
 In this episode, we will learn about Type Annotations & Type Inference.
 
@@ -32,7 +32,7 @@ In this episode, we will learn about Type Annotations & Type Inference.
 - Contextual Typing with DOM Events & Arrays
 - Best Practices: When to Annotate vs. When to Infer
 
-# Episode 03 - Base Types Primitives
+### Episode 03 - Base Types Primitives
 
 In this episode, we will learn about the base types in TypeScript.
 
@@ -96,7 +96,7 @@ In this episode, we will learn about the base types in TypeScript.
 | `never` | The value cannot exist / The code path cannot be reached. | Functions that crash or loop forever. |
 
 
-# Episode 04 - Arrays, Tuples & Object Types
+### Episode 04 - Arrays, Tuples & Object Types
 
 In this episode, we will learn about the Arrays, Tuples & Object Types.
 
@@ -118,3 +118,25 @@ In this episode, we will learn about the Arrays, Tuples & Object Types.
 | `void` | The function completes, but returns no useful data. | `console.log()` |
 | `any` | The value could be absolutely anything. Turn off safety rules. | Migrating messy legacy JS code. |
 | `never` | The value cannot exist / The code path cannot be reached. | Functions that crash or loop forever. |
+
+### Episode 05 - Type Aliases
+
+In this episode, we will learn about the Type Aliases.
+
+## Lessons Covered
+
+- Introduction to Session 05
+- Real-World Problem: Why We Need Flexible Types
+- What are Union Types? (Syntax & Analogy)
+- Common Beginner Mistake: Union Is Not Combined Types
+- Type Narrowing Explained with Code Examples
+- Common Beginner Mistake: Type Coercion Misunderstanding
+- Literal Types: Restricting Values Beyond Primitives
+- What are Type Aliases & Why Use Them?
+- Practical Example: Signal Status with Type Aliases
+- Variable Declarations vs. Type Aliases
+- Combining Multiple Type Aliases
+- Union of Object Types & Discriminated Unions
+- Handling Optional Values: Union Types with Null & Undefined
+- Arrays in TypeScript: Mixed Values vs. Homogeneous Unions
+- Union (|) vs. Intersection (&)
