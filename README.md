@@ -1,4 +1,5 @@
-# TypeScript Learning Series
+<h1 align="center">🚀 TypeScript Learning Series</h1>
+
 
 ## Episode 01 - Setup & Configuration
 
