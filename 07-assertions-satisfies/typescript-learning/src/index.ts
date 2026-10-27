@@ -13,13 +13,13 @@ type User = {
     id: number;
     username: string;
 };
-
+/*
 const response = await fetch("/api/user/1");
 const rawData = await response.json();
 
 const user = rawData as User;
 console.log(user.username)
-
+*/
 const ageText = "25";
 
 const age = (ageText as unknown) as number;
@@ -28,7 +28,7 @@ console.log(typeof age); // string
 
 // Const Assertions
 const colors = ["red", "green", "blue"] as const;
-colors[0] = "yellow"
+//colors[0] = "yellow" // error
 
 // Satisfies
 
