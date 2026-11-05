@@ -149,3 +149,64 @@ In this episode, we will learn about the Type Aliases.
 - Union (|) vs. Intersection (&)
 
 ---
+
+## Episode 06 - Interfaces
+
+In this episode, we will learn about the Interfaces.
+
+### Lessons Covered
+
+- Introduction: Interfaces vs Type Aliases
+- Defining an Interface & Object Shape
+- Similarities: Interfaces vs Type Aliases
+- Key Differences: What Can They Represent?
+- Extending Interfaces
+- Extending Multiple Interfaces
+- Can Interfaces Extend Type Aliases?
+- Using Interfaces in Type Aliases (Intersections)
+- Optional and Readonly Modifiers
+- Using `implements` with Classes
+- Compile-time vs Runtime in TypeScript
+- When to Choose Interface vs Type Alias
+- Practical Example: Combining Both
+
+## Interface VS. Type Alias
+
+| Capability | Interface | Type Alias |
+| --- | --- | --- |
+| Object shapes | Yes | Yes |
+| Unions | Not directly | Yes |
+| Literal unions | Not directly | Yes |
+| Tuples | Not directly | Yes |
+| Function types | Callable interface syntax | Yes |
+| Generics | Yes | Yes |
+| `extends` | Yes | No; use composition |
+| Declaration merging | Yes | No |
+| Class `implements` | Common | Compatible object-like aliases can be implemented |
+
+---
+
+## Episode 07 - Assertions vs Satisfies
+
+In this episode, we will learn about assertions vs. satisfies.
+
+### Lessons Covered
+
+- Introduction & Advanced TypeScript Overview
+- What is Type Assertion? (Compile vs Runtime)
+- Syntax: The as Keyword vs Angle Brackets
+- Practical Example: Typing DOM Elements Safely
+- API Data Fetching: Typing Unknown JSON Payloads
+- Impossible Assertions & Double Assertion (as unknown as T)
+- Const Assertions: Deep Readonly & Literal Types with as const
+- What is the satisfies Operator? (Preserving Exact Types)
+- Real-World Example: App Configuration & Union Types
+
+## Type Assertions Vs. Satisfies
+
+| Feature | `as` (Type Assertion) | `satisfies` (Type Validation) |
+| --- | --- | --- |
+| Philosophy | "Trust me, I know the type." (Overrides the compiler) | "Check me, do I match the type?" (Asks the compiler to verify) |
+| Safety | Low safety. Can hide bugs or bypass missing properties. | High safety. Catches missing or wrongly typed properties immediately. |
+| Type Inference | Forces the type to become exactly what you asserted. | Retains the narrowest, most specific literal values provided. |
+| Direction | Downcasts/Upcasts type boundaries. | Validates an object against a broader contract structure. |
