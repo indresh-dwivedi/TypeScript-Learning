@@ -210,3 +210,19 @@ In this episode, we will learn about assertions vs. satisfies.
 | Safety | Low safety. Can hide bugs or bypass missing properties. | High safety. Catches missing or wrongly typed properties immediately. |
 | Type Inference | Forces the type to become exactly what you asserted. | Retains the narrowest, most specific literal values provided. |
 | Direction | Downcasts/Upcasts type boundaries. | Validates an object against a broader contract structure. |
+
+---
+
+## Episode 08 - TypeScript Generics: Intro & patterns
+
+In this episode, we will learn about TypeScript Generics & and its usage patterns.
+
+### Lessons Covered
+
+- Introduction & Why TypeScript Generics Matter
+- What Are Generics in TypeScript?
+- The Problem: Why any Breaks Type Safety
+- Writing Reusable Code with Generic Functions
+- Real-World Example: Typing Generic API Responses
+- Mastering Generic Constraints with the extends Keyword
+- Advanced Walkthrough: Custom Types & Multiple Type Parameters
